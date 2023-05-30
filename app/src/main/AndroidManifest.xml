@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sewabisku">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".main.MenuActivity" />
+        <activity android:name=".pelanggan.tambaheditpelangganfragment" />
+        <activity android:name=".sewa.sewabusfragment" />
+        <activity android:name=".sewa.tambaheditsewabus" />
+        <activity android:name=".activities.LoginActivity" />
+        <activity android:name=".history.HistoryActivity" />
+        <activity android:name=".history.DetailHistory" />
+<!--        <activity android:name=".activities.RegisterActivity" />-->
+        <activity android:name=".bus.busfragment" />
+        <activity android:name=".bus.busdetail" />
+        <activity android:name=".Contact_fragment" />
+        <activity android:name=".pelanggan.pelanggan_fragment" />
+        <activity android:name=".main.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

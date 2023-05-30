@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+        <!-- Base application theme. -->
+        <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+            <item name="colorPrimary">@color/colorPrimary</item>
+            <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+            <item name="colorAccent">@color/colorAccent</item>
+        </style>
+<!--    <style name="Widget.Usaha.Textinput" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">-->
+<!--        <item name="hintTextAppearance">#442C2E</item>-->
+<!--        <item name="hintTextColor">#442C2E</item>-->
+<!--        <item name="android:paddingBottom">8dp</item>-->
+<!--        <item name="boxStrokeColor">#FEFDFD</item>-->
+<!--    </style>-->
+</resources>
